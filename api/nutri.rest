@@ -1,0 +1,12 @@
+POST http://localhost:5000/plan
+Content-Type: application/json
+
+{
+  "nome": "João Silva",
+  "idade": 30,
+  "altura_cm": 175,
+  "peso_kg": 85,
+  "sexo": "masculino",
+  "nivel_atividade": "moderado",
+  "objetivo": "ganhar_massa"
+}
