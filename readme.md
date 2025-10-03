@@ -56,6 +56,7 @@ cd NutriAI
 
 # 2. Executando o Back-end (API) 🚀
 
+```bash
 # Navegue até a pasta da API
 cd api
 
@@ -73,30 +74,35 @@ cp .env.example .env
 # secreta da API do Gemini:
 # api/.env
 GEMINI_API_KEY="sua-chave-secreta-aqui"
+```
 
+```bash
 # Rode o servidor da API
 npm run dev
 
-
-✅ O servidor back-end estará em execução. Geralmente em http://localhost:5000. Deixe este terminal rodando.
+# ✅ O servidor back-end estará em execução. Geralmente em http://localhost:5000. Deixe este terminal rodando.
+```
 
 # 3. Executando o front-end
 
-Abra um NOVO terminal na raiz do projeto para executar os comandos abaixo.
+```bash
+# Abra um NOVO terminal na raiz do projeto para executar os comandos abaixo.
 
 # Navegue até a pasta da aplicação web
 cd web
 
+
 # Instale as dependências
 npm install
+```
 
-
+```bash
 # Rode a aplicação web
 npm run dev
 
-
-✅ A aplicação web estará acessível no seu navegador. 
-Geralmente em http://localhost:3000
+#✅ A aplicação web estará acessível no seu navegador. 
+# Geralmente em http://localhost:3000
+```
 
 ---
 
